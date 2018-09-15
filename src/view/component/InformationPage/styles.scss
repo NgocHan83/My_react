@@ -1,0 +1,87 @@
+.wrapper-form {
+  background: #eaf1cf;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  .form-info {
+    width: 400px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #228B22;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    top: calc(50vh - 400px);
+    padding: 15px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
+    label {
+      color: #fff;
+    }
+    
+    .female {
+     padding-left: 20px;
+    }
+    
+    input[type='radio'] {
+      width: 18px;
+      height: 18px;
+    }
+
+    .wrapper-btn {
+      text-align: center;
+      input {
+        text-transform: lowercase;
+      }
+      fieldset input:first-letter {
+        text-transform:capitalize !important
+      }
+      
+    }
+    .btn-primary {
+      width: 50%;
+      height: 45px;
+      background-color: #FF8C00;
+      border-color: #FF8C00;
+      border-radius: 22px;
+      font-size: 18px;
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    .btn-primary:focus {
+      background-color: #FF8C00;
+      border-color: #FF8C00;
+      box-shadow: 0 0 0 0;
+     }
+    
+    .btn-primary:hover {
+      background-color: #FF8C00;
+      border-color: #FF8C00;
+      box-shadow: none;
+      -webkit-box-shadow:none;
+     }
+    
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .show>.btn-primary.dropdown-toggle { 
+      background-color: #FF8C00;
+      border-color: #FF8C00;
+      background-image: linear-gradient(241deg, #e95707, #f58220);
+     }
+    
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-primary.dropdown-toggle {
+      box-shadow: 0 0 0 0 #FF8C00;
+     }
+    
+    .btn-primary:disabled {
+      background-color: #FF8C00;
+      border-color: #FF8C00;
+     } 
+  }  
+
+  // .capitalize {
+  //   text-transform: lowercase;
+  //   display: inline-block;
+  // }
+    
+}
+

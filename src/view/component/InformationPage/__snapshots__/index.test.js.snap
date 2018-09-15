@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Information Page component has a valid snapshot 1`] = `
+<div
+  className="wrapper-form"
+>
+  <form
+    className="form-info"
+    onSubmit={undefined}
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="firstName"
+      >
+        First Name
+      </label>
+      <div />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="lastName"
+      >
+        Last Name
+      </label>
+      <div />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <div />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="gender"
+      >
+        Gender
+      </label>
+      <div>
+        <label
+          className="male"
+        />
+        <label
+          className="female"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group wrapper-btn"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={undefined}
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
